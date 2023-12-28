@@ -1,5 +1,5 @@
 {
-    "name": "agence-adeliom/easy-redirect-bundle",
+    "name": "movetonull/easy-redirect-bundle",
     "type": "symfony-bundle",
     "description": "Symfony redirection bundle for EasyAdmin",
     "keywords": [
