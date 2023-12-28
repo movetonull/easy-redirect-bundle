@@ -16,9 +16,9 @@ class Redirect
      * @var mixed
      */
     #[ORM\Id]
-    #[ORM\GeneratedValue]
+    #[ORM\GeneratedValue(strategy: 'IDENTITY')]
     #[ORM\Column(type: \Doctrine\DBAL\Types\Types::INTEGER)]
-    private $id;
+    protected $id;
 
     #[Groups('main')]
     #[ORM\Column(name: 'source', type: \Doctrine\DBAL\Types\Types::STRING, length: 500)]
